@@ -1,0 +1,6 @@
+/target
+/completed_reports/*
+/tmp_output/*
+/uploads/*
+data.db
+tectonic
