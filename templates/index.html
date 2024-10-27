@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLSX Uploader and Report Generator</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2 { color: #333; }
+        form { margin-bottom: 20px; }
+        input, button { margin: 10px 0; }
+        .spinner {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(0,0,0,.3);
+            border-radius: 50%;
+            border-top-color: #000;
+            animation: spin 1s ease-in-out infinite;
+            -webkit-animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { -webkit-transform: rotate(360deg); }
+        }
+        @-webkit-keyframes spin {
+            to { -webkit-transform: rotate(360deg); }
+        }
+
+        .htmx-indicator{
+            display:none;
+        }
+        .htmx-request .htmx-indicator{
+            display:inline-block;
+        }
+        .htmx-request.htmx-indicator{
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSV Uploader and Report Generator</h1>
+    
+    <h2>Upload CSV File</h2>
+    <form hx-post="/upload" hx-encoding="multipart/form-data" hx-swap="outerHTML">
+        <input type="file" name="csv_file" accept=".csv">
+        <button type="submit">Upload</button>
+    </form>
+    
+    <h2>Generate Report</h2>
+    <form hx-post="/generate_report" hx-target="#result" hx-indicator="#spinner">
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required>
+        <br>
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required>
+        <br>
+        <button type="submit">Generate Report</button>
+    </form>
+
+    <div id="spinner" class="htmx-indicator">
+        <div class="spinner"></div>
+        <p>Generating report, please wait...</p>
+    </div>
+
+    <div id="result"></div>
+
+
+
+    <h2>Database Status</h2>
+    <p>
+        Current number of rows in database: 
+        <span id="row-count" hx-get="/row_count" hx-trigger="load, every 5s">
+            Loading...
+        </span>
+    </p>
+
+    <script>
+        document.body.addEventListener('htmx:afterOnLoad', function(event) {
+            if (event.detail.elt.id === 'row-count') {
+                document.getElementById('row-count').innerHTML = event.detail.xhr.response;
+            }
+        });
+        document.body.addEventListener('htmx:afterSwap', function(event) {
+            if (event.detail.target.id === 'result') {
+                console.log('Response:', event.detail.target.innerText);
+            }
+        });
+
+    </script>
+</body>
+</html>

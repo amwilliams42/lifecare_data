@@ -4,3 +4,6 @@
 /uploads/*
 data.db
 tectonic
+/*/.venv
+/*/venv
+/*/__pycache__

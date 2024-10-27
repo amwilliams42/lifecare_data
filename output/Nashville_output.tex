@@ -1,0 +1,417 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[left=.5cm, right=1cm, top=1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{subcaption}
+
+\pagenumbering{gobble}
+\thispagestyle{empty}
+
+\begin{document}
+\textbf{ Nashville }
+Division start date: 10/13/2024
+Division end date: 10/19/2024
+
+\begin{longtable}{l|cccccccc}
+\toprule
+ & Monday & Tuesday & Wednesday & Thursday & Friday & Saturday & Sunday & Total \\
+\midrule
+
+ALS Ran & 
+3 & 
+4 & 
+3 & 
+2 & 
+4 & 
+0 & 
+4 & 
+20 \\
+
+BLS Ran & 
+8 & 
+20 & 
+17 & 
+15 & 
+28 & 
+16 & 
+26 & 
+130 \\
+
+CCU Ran & 
+0 & 
+0 & 
+0 & 
+1 & 
+0 & 
+0 & 
+0 & 
+1 \\
+
+Total Ran & 
+11 & 
+24 & 
+20 & 
+18 & 
+32 & 
+16 & 
+30 & 
+151 \\
+
+Turned & 
+4 & 
+2 & 
+0 & 
+4 & 
+7 & 
+1 & 
+4 & 
+22 \\
+
+Cancelled & 
+2 & 
+2 & 
+4 & 
+3 & 
+0 & 
+4 & 
+3 & 
+18 \\
+
+Total Missed & 
+6 & 
+4 & 
+4 & 
+7 & 
+7 & 
+5 & 
+7 & 
+40 \\
+
+Total Demand & 
+17 & 
+28 & 
+24 & 
+25 & 
+39 & 
+21 & 
+37 & 
+191 \\
+
+\bottomrule
+\end{longtable}
+
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & ALS \\
+            \hline
+            
+                TRISTAR HOSPITAL - MT JULIET ER & 8 \\
+            
+                TRISTAR HOSPITAL - STONECREST & 2 \\
+            
+                TRISTAR HOSPITAL - SUMMIT & 2 \\
+            
+                TRISTAR HOSPITAL - ASHLAND CITY ER & 1 \\
+            
+                PATIENT RESIDENCE & 1 \\
+            
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - ALS}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & BLS \\
+            \hline
+            
+                PATIENT RESIDENCE & 17 \\
+            
+                TRISTAR HOSPITAL - SUMMIT & 13 \\
+            
+                VANDERBILT HOSPITAL - MAIN & 10 \\
+            
+                DCI - SOUTHERN HILLS & 8 \\
+            
+                TRISTAR HOSPITAL - MT JULIET ER & 7 \\
+            
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - BLS}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & CCU \\
+            \hline
+            
+                TRISTAR HOSPITAL - NORTHCREST & 1 \\
+            
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - CCU}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & Total \\
+            \hline
+            
+                PATIENT RESIDENCE & 18 \\
+            
+                TRISTAR HOSPITAL - MT JULIET ER & 15 \\
+            
+                TRISTAR HOSPITAL - SUMMIT & 15 \\
+            
+                VANDERBILT HOSPITAL - MAIN & 10 \\
+            
+                DCI - SOUTHERN HILLS & 8 \\
+            
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - Total}
+    \end{subfigure}
+    \caption{Top 5 Origins by Category}
+\end{figure}
+
+\includegraphics[width=\textwidth]{ ../tmp_output/response_time_distribution_Nashville_10-13-2024_10-19-2024.png }
+
+\clearpage
+
+
+
+\clearpage
+
+\begin{longtable}{l|cccc|c}
+\toprule
+Origin & Total & ALS & BLS & CCU & Delta \\
+\midrule
+
+    
+        ALT RESIDENCE & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        BETHANY CENTER FOR REHABILITATION AND HEALING & 3 & 0 & 3 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        CREEKSIDE HEALTH AND REHAB & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        DCI - MADISON & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        DCI - MED CENTER & 6 & 0 & 6 & 0 & 0 \\
+    
+
+    
+        DCI - MEHARRY & 2 & 0 & 2 & 0 & 0 \\
+    
+
+    
+        DCI - SOUTHERN HILLS & 8 & 0 & 8 & 0 & 0 \\
+    
+
+    
+        DR OFFICE & 1 & 1 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        FACILITY & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        FMC EAST NASHVILLE & 3 & 0 & 3 & 0 & 0 \\
+    
+
+    
+        FMC SMYRNA & 3 & 0 & 3 & 0 & 0 \\
+    
+
+    
+        FMC WEST NASHVILLE & 2 & 0 & 2 & 0 & 0 \\
+    
+
+    
+        GOOD SAMARITAN HEALTH AND REHAB & 2 & 0 & 2 & 0 & 0 \\
+    
+
+    
+        GREEN HILLS CENTER FOR REHAB & 3 & 0 & 3 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        HARTSVILLE HEALTH \& REHAB & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        JOHN TUNE AIRPORT & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        NASHVILLE CENTER FOR REHAB & 3 & 0 & 3 & 0 & 0 \\
+    
+
+    
+        NASHVILLE UROLOGY PC & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        NHC MURFREESBORO & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        PATIENT RESIDENCE & 18 & 1 & 17 & 0 & \textcolor{green}{\textbf{+4}} \\
+    
+
+    
+        PULMINARY CARE & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        QUALITY CENTER FOR REHABILITATION AND HEALING & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-3}} \\
+    
+
+    
+        SIGNATURE FLIGHT SUPPORT HANGAR & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        ST THOMAS HOSPITAL - MIDTOWN & 5 & 0 & 5 & 0 & \textcolor{green}{\textbf{+2}} \\
+    
+
+    
+        ST THOMAS HOSPITAL - RUTHERFORD & 2 & 0 & 2 & 0 & 0 \\
+    
+
+    
+        ST THOMAS HOSPITAL - WEST & 3 & 0 & 3 & 0 & \textcolor{red}{\textbf{-5}} \\
+    
+
+    
+        SUMNER REGIONAL MEDICAL CENTER & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        THE BRIDGE AT HICKORY WOODS & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - ASHLAND CITY ER & 2 & 1 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - CENTENNIAL & 2 & 0 & 2 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - CENTURY FARM ER & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - HORIZON MEDICAL & 3 & 1 & 2 & 0 & 0 \\
+    
+
+    
+        TRISTAR HOSPITAL - MT JULIET ER & 15 & 8 & 7 & 0 & \textcolor{green}{\textbf{+3}} \\
+    
+
+    
+        TRISTAR HOSPITAL - NATCHEZ ER & 3 & 1 & 2 & 0 & \textcolor{green}{\textbf{+2}} \\
+    
+
+    
+        TRISTAR HOSPITAL - NORTHCREST & 4 & 1 & 2 & 1 & \textcolor{green}{\textbf{+4}} \\
+    
+
+    
+        TRISTAR HOSPITAL - PORTLAND ER & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - SKYLINE & 6 & 0 & 6 & 0 & \textcolor{green}{\textbf{+3}} \\
+    
+
+    
+        TRISTAR HOSPITAL - SOUTHERN HILLS & 3 & 0 & 3 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - SPRING HILL ER & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        TRISTAR HOSPITAL - STONECREST & 7 & 2 & 5 & 0 & \textcolor{green}{\textbf{+4}} \\
+    
+
+    
+        TRISTAR HOSPITAL - SUMMIT & 15 & 2 & 13 & 0 & \textcolor{red}{\textbf{-4}} \\
+    
+
+    
+        VANDERBILT DIALYSIS CLINIC & 3 & 0 & 3 & 0 & \textcolor{green}{\textbf{+2}} \\
+    
+
+    
+        VANDERBILT HOSPITAL - CHILDRENS & 2 & 1 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        VANDERBILT HOSPITAL - MAIN & 10 & 0 & 10 & 0 & 0 \\
+    
+
+    
+        VANDERBILT HOSPITAL - UNIVERSITY & 1 & 0 & 1 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        VANDERBILT HOSPITAL - WILSON COUNTY & 3 & 1 & 2 & 0 & \textcolor{green}{\textbf{+1}} \\
+    
+
+    
+        VANDERBILT INFECTIOUS DISEASE & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        VANDERBILT WOUND CARE & 0 & 0 & 0 & 0 & \textcolor{red}{\textbf{-1}} \\
+    
+
+    
+        WHITES CREEK WELLNESS AND REHAB CENTER & 1 & 0 & 1 & 0 & 0 \\
+    
+
+    
+        \hline
+    
+
+    
+        TOTAL & 151 & 20 & 130 & 1 & \textcolor{green}{\textbf{+8}} \\
+    
+
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\includegraphics[width=\textwidth]{ ../tmp_output/ran_heatmap_Nashville_10-13-2024_10-19-2024.png }
+\includegraphics[width=\textwidth]{ ../tmp_output/turned_heatmap_Nashville_10-13-2024_10-19-2024.png }
+\includegraphics[width=\textwidth]{ ../tmp_output/cancelled_heatmap_Nashville_10-13-2024_10-19-2024.png }
+
+\end{document}

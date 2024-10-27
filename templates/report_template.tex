@@ -1,0 +1,173 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage[left=.5cm, right=1cm, top=1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{subcaption}
+
+\pagenumbering{gobble}
+\thispagestyle{empty}
+
+\begin{document}
+\textbf{ {{division_data.division}} }
+Division start date: {{division_data.start_date}}
+Division end date: {{division_data.end_date}}
+
+\begin{longtable}{l|cccccccc}
+\toprule
+ & Monday & Tuesday & Wednesday & Thursday & Friday & Saturday & Sunday & Total \\
+\midrule
+{% for row_name in ["ALS Ran", "BLS Ran", "CCU Ran", "Total Ran", "Turned", "Cancelled", "Total Missed", "Total Demand"] %}
+{{row_name}} & 
+{{division_data.summary_table[row_name].Sunday}} & 
+{{division_data.summary_table[row_name].Tuesday}} & 
+{{division_data.summary_table[row_name].Wednesday}} & 
+{{division_data.summary_table[row_name].Thursday}} & 
+{{division_data.summary_table[row_name].Friday}} & 
+{{division_data.summary_table[row_name].Saturday}} & 
+{{division_data.summary_table[row_name].Monday}} & 
+{{division_data.summary_table[row_name].Total}} \\
+{% endfor %}
+\bottomrule
+\end{longtable}
+
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & ALS \\
+            \hline
+            {% for row in division_data.origin_report.top_5_als %}
+                {{ row.origin }} & {{ row.ALS }} \\
+            {% endfor %}
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - ALS}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & BLS \\
+            \hline
+            {% for row in division_data.origin_report.top_5_bls %}
+                {{ row.origin }} & {{ row.BLS }} \\
+            {% endfor %}
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - BLS}
+    \end{subfigure}
+    \vskip\baselineskip
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & CCU \\
+            \hline
+            {% for row in division_data.origin_report.top_5_ccu %}
+                {{ row.origin }} & {{ row.CCU }} \\
+            {% endfor %}
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - CCU}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tabular}{|l|r|}
+            \hline
+            Origin & Total \\
+            \hline
+            {% for row in division_data.origin_report.top_5_total %}
+                {{ row.origin }} & {{ row.Total }} \\
+            {% endfor %}
+            \hline
+        \end{tabular}
+        \caption{Top 5 Origins - Total}
+    \end{subfigure}
+    \caption{Top 5 Origins by Category}
+\end{figure}
+
+\includegraphics[width=\textwidth]{ ../tmp_output/{{division_data.response_time_distribution}} }
+
+\clearpage
+
+{% if division == "Memphis" %}
+
+% Insert table using memphis_specialized_report.methodist_table
+
+\begin{longtable}{l|cccc|c}
+    \toprule
+    Origin & Total & ALS & BLS & CCU & Delta \\
+    \midrule
+    {% for origin in division_data.memphis_specialized_report.methodist_table %}
+        {% if origin.origin == '\\hline' %}
+            \hline
+        {% else %}
+            {{origin.origin}} & {{origin.Total}} & {{origin.ALS}} & {{origin.BLS}} & {{origin.CCU}} & {{origin.Delta}} \\
+        {% endif %}
+    {% endfor %}
+    \bottomrule
+\end{longtable}
+
+% Insert table using memphis_specialized_report.baptist_table
+\begin{longtable}{l|cccc|c}
+    \toprule
+    Origin & Total & ALS & BLS & CCU & Delta \\
+    \midrule
+    {% for origin in division_data.memphis_specialized_report.baptist_table %}
+        {% if origin.origin == '\\hline' %}
+            \hline
+        {% else %}
+            {{origin.origin}} & {{origin.Total}} & {{origin.ALS}} & {{origin.BLS}} & {{origin.CCU}} & {{origin.Delta}} \\
+        {% endif %}
+    {% endfor %}
+    \bottomrule
+\end{longtable}
+
+% Insert table using memphis_specialized_report.st_francis_table
+\begin{longtable}{l|cccc|c}
+    \toprule
+    Origin & Total & ALS & BLS & CCU & Delta \\
+    \midrule
+    {% for origin in division_data.memphis_specialized_report.st_francis_table %}
+        {% if origin.origin == '\\hline' %}
+            \hline
+        {% else %}
+            {{origin.origin}} & {{origin.Total}} & {{origin.ALS}} & {{origin.BLS}} & {{origin.CCU}} & {{origin.Delta}} \\
+        {% endif %}
+    {% endfor %}
+    \bottomrule
+\end{longtable}
+
+{% endif %}
+
+\clearpage
+
+\begin{longtable}{l|cccc|c}
+\toprule
+Origin & Total & ALS & BLS & CCU & Delta \\
+\midrule
+{% for origin in division_data.origin_report.full_report %}
+    {% if origin.origin == '\\hline' %}
+        \hline
+    {% else %}
+        {{origin.origin}} & {{origin.Total}} & {{origin.ALS}} & {{origin.BLS}} & {{origin.CCU}} & {{origin.Delta}} \\
+    {% endif %}
+{% endfor %}
+\bottomrule
+\end{longtable}
+
+\clearpage
+
+\includegraphics[width=\textwidth]{ ../tmp_output/{{division_data.ran_heatmap}} }
+\includegraphics[width=\textwidth]{ ../tmp_output/{{division_data.turned_heatmap}} }
+\includegraphics[width=\textwidth]{ ../tmp_output/{{division_data.cancelled_heatmap}} }
+
+\end{document}
