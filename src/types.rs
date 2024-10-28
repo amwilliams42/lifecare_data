@@ -1,4 +1,3 @@
-use std::error::Error;
 use std::error::Error as StdError;
 use chrono::Weekday;
 use serde::{Deserialize, Serialize};
@@ -59,6 +58,8 @@ impl From<String> for CallLevel {
             "BLS" => return Self::BLS,
             "ALS" => return Self::ALS,
             "CCU" => return Self::CCU,
+            "ALS BARI" => return Self::ALS,
+            "BLS BARI" => return Self::BLS,
             _ => return Self::NA
         }
     }

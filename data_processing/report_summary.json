@@ -1,0 +1,1521 @@
+{
+  "Memphis": {
+    "division": "Memphis",
+    "start_date": "10/13/2024",
+    "end_date": "10/19/2024",
+    "total_records": 484,
+    "summary_table": {
+      "ALS Ran": {
+        "Sunday": 5,
+        "Monday": 5,
+        "Tuesday": 8,
+        "Wednesday": 5,
+        "Thursday": 7,
+        "Friday": 9,
+        "Saturday": 8,
+        "Total": 47
+      },
+      "BLS Ran": {
+        "Sunday": 24,
+        "Monday": 49,
+        "Tuesday": 51,
+        "Wednesday": 53,
+        "Thursday": 43,
+        "Friday": 54,
+        "Saturday": 25,
+        "Total": 299
+      },
+      "CCU Ran": {
+        "Sunday": 0,
+        "Monday": 0,
+        "Tuesday": 0,
+        "Wednesday": 0,
+        "Thursday": 1,
+        "Friday": 1,
+        "Saturday": 0,
+        "Total": 2
+      },
+      "Total Ran": {
+        "Sunday": 29,
+        "Monday": 54,
+        "Tuesday": 59,
+        "Wednesday": 58,
+        "Thursday": 51,
+        "Friday": 64,
+        "Saturday": 33,
+        "Total": 348
+      },
+      "Turned": {
+        "Sunday": 0,
+        "Monday": 19,
+        "Tuesday": 17,
+        "Wednesday": 15,
+        "Thursday": 12,
+        "Friday": 16,
+        "Saturday": 9,
+        "Total": 88
+      },
+      "Cancelled": {
+        "Sunday": 2,
+        "Monday": 8,
+        "Tuesday": 9,
+        "Wednesday": 6,
+        "Thursday": 4,
+        "Friday": 8,
+        "Saturday": 0,
+        "Total": 37
+      },
+      "Total Missed": {
+        "Sunday": 2,
+        "Monday": 27,
+        "Tuesday": 26,
+        "Wednesday": 21,
+        "Thursday": 16,
+        "Friday": 24,
+        "Saturday": 9,
+        "Total": 125
+      },
+      "Total Demand": {
+        "Sunday": 31,
+        "Monday": 81,
+        "Tuesday": 86,
+        "Wednesday": 81,
+        "Thursday": 71,
+        "Friday": 89,
+        "Saturday": 45,
+        "Total": 484
+      }
+    },
+    "origin_report": {
+      "full_report": [
+        {
+          "origin": "AHC - APPLINGWOOD HEALTHCARE CENTER INC",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "AHC - HARBOR VIEW",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "ALT RESIDENCE",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - COLLIERVILLE",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - MEMPHIS",
+          "ALS": 0,
+          "BLS": 7,
+          "CCU": 1,
+          "Total": 9,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{green}{\\textbf{+7}}"
+        },
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - TIPTON",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "BEALE STREET LANDING",
+          "ALS": 1,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "BOLIVAR MEDICAL CENTER - MS",
+          "ALS": 1,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "CENTER FOR ORTHOTICS & PROSTHETICS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "COLLIERVILLE NURSING AND REHAB",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 5,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "CORDOVA WELLNESS & REHAB",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "CRESTWYN BEHAVIORAL HEALTH HOSPITAL",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "CULPEPPER PLACE ASSISTED LIVING",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "DAVITA GALLERIA (LAKELAND)",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 4,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "DAVITA MEMPHIS (UNION AVE)",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "DESOTO HEALTHCARE CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "DIVERSICARE - SOUTHAVEN",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "DR OFFICE",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 7,
+          "Delta": "\\textcolor{red}{\\textbf{-4}}"
+        },
+        {
+          "origin": "ENCOMPASS REHAB NORTH",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "FEDEXFORUM",
+          "ALS": 16,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 17,
+          "PrevTotal": 5,
+          "Delta": "\\textcolor{green}{\\textbf{+12}}"
+        },
+        {
+          "origin": "FMC COLLIERVILLE",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "FMC EAST MEMPHIS",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "FMC MEMPHIS",
+          "ALS": 0,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "FMC MT MORIAH",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "FMC RIDGEWAY",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "FMC SOUTHAVEN",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "GALLAWAY HEALTH AND REHAB",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "GRACELAND REHABILITATION AND NURSING CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "GREAT OAKS REHAB BYHALIA",
+          "ALS": 0,
+          "BLS": 9,
+          "CCU": 0,
+          "Total": 9,
+          "PrevTotal": 7,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "HIGHLAND HILLS MEDICAL CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "JORDAN RIVER - THE FARMS AT BAILY STATION",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "LANDMARK OF DESOTO",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "MAJESTIC GARDENS AT MEMPHIS REHABILITATION AND SNC",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "MAYS & SCHNAPP PAIN",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "MED PLEX MEDICAL BUILDING",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "MEMPHIS JEWISH HOME",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "ALS": 2,
+          "BLS": 32,
+          "CCU": 1,
+          "Total": 35,
+          "PrevTotal": 41,
+          "Delta": "\\textcolor{red}{\\textbf{-6}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - LE BONHEUR CHILDREN'S",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 7,
+          "Delta": "\\textcolor{red}{\\textbf{-3}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - NORTH",
+          "ALS": 10,
+          "BLS": 38,
+          "CCU": 0,
+          "Total": 51,
+          "PrevTotal": 29,
+          "Delta": "\\textcolor{green}{\\textbf{+22}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - OLIVE BRANCH",
+          "ALS": 5,
+          "BLS": 17,
+          "CCU": 0,
+          "Total": 22,
+          "PrevTotal": 29,
+          "Delta": "\\textcolor{red}{\\textbf{-7}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - SOUTH",
+          "ALS": 3,
+          "BLS": 19,
+          "CCU": 0,
+          "Total": 22,
+          "PrevTotal": 23,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - UNIVERSITY",
+          "ALS": 2,
+          "BLS": 39,
+          "CCU": 0,
+          "Total": 43,
+          "PrevTotal": 37,
+          "Delta": "\\textcolor{green}{\\textbf{+6}}"
+        },
+        {
+          "origin": "MIDTOWN CENTER FOR HEALTH & REHAB",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "OPUS EAST MEMPHIS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "PARKWAY HEALTH AND REHABILITATION CENTER",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "PARKWOOD BEHAVIORAL HEALTH SYSTEM",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "PATIENT RESIDENCE",
+          "ALS": 2,
+          "BLS": 22,
+          "CCU": 0,
+          "Total": 25,
+          "PrevTotal": 21,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "PHYSICIANS OFFICE BUILDING",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "PICK UP FROM SCENE",
+          "ALS": 2,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "QUINCE NURSING AND REHABILITATION CENTER LLC",
+          "ALS": 1,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "SELECT SPECIALTY HOSPITAL - MEMPHIS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "SEMMES MURPHEY CLINIC",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "SIGNATURE HEALTHCARE OF MEMPHIS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 5,
+          "Delta": "\\textcolor{red}{\\textbf{-4}}"
+        },
+        {
+          "origin": "SIGNATURE HEALTHCARE OF PRIMACY",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "SILVERCREEK SENIOR LIVING",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "SPRING GATE REHABILITATION AND HEALTHCARE CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "ST FRANCIS HOSPITAL - BARTLETT",
+          "ALS": 1,
+          "BLS": 18,
+          "CCU": 0,
+          "Total": 20,
+          "PrevTotal": 16,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "ST FRANCIS HOSPITAL - PARK",
+          "ALS": 0,
+          "BLS": 6,
+          "CCU": 0,
+          "Total": 6,
+          "PrevTotal": 11,
+          "Delta": "\\textcolor{red}{\\textbf{-5}}"
+        },
+        {
+          "origin": "ST JUDE CHILDREN'S RESEARCH HOSPITAL",
+          "ALS": 1,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "STERN CARDIOVASCULAR (WALNUT GROVE)",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "THE BAY AT HIGHLANDS HEALTH & REHABILITATION CENTE",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "THE PINNACLE OF SOUTHAVEN",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "THE WEST CLINIC - UNION",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "TRINITY MISSION HEALTH & REHAB HOLLY SPRINGS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "UT METHODIST PHYSICIANS NEURO",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - MAIN",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "WALTER MAY PARK",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "WESLEY NEUROLOGY CLINIC",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "\\hline",
+          "ALS": 0,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 0,
+          "PrevTotal": 0,
+          "Delta": 0
+        },
+        {
+          "origin": "TOTAL",
+          "ALS": 47,
+          "BLS": 299,
+          "CCU": 2,
+          "Total": 359,
+          "PrevTotal": 292,
+          "Delta": "\\textcolor{green}{\\textbf{+67}}"
+        }
+      ],
+      "top_5_als": [
+        {
+          "origin": "FEDEXFORUM",
+          "ALS": 16
+        },
+        {
+          "origin": "METHODIST HOSPITAL - NORTH",
+          "ALS": 10
+        },
+        {
+          "origin": "METHODIST HOSPITAL - OLIVE BRANCH",
+          "ALS": 5
+        },
+        {
+          "origin": "METHODIST HOSPITAL - SOUTH",
+          "ALS": 3
+        },
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "ALS": 2
+        }
+      ],
+      "top_5_bls": [
+        {
+          "origin": "METHODIST HOSPITAL - UNIVERSITY",
+          "BLS": 39
+        },
+        {
+          "origin": "METHODIST HOSPITAL - NORTH",
+          "BLS": 38
+        },
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "BLS": 32
+        },
+        {
+          "origin": "PATIENT RESIDENCE",
+          "BLS": 22
+        },
+        {
+          "origin": "METHODIST HOSPITAL - SOUTH",
+          "BLS": 19
+        }
+      ],
+      "top_5_ccu": [
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - MEMPHIS",
+          "CCU": 1
+        },
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "CCU": 1
+        },
+        {
+          "origin": "AHC - APPLINGWOOD HEALTHCARE CENTER INC",
+          "CCU": 0
+        },
+        {
+          "origin": "AHC - HARBOR VIEW",
+          "CCU": 0
+        },
+        {
+          "origin": "ALT RESIDENCE",
+          "CCU": 0
+        }
+      ],
+      "top_5_total": [
+        {
+          "origin": "METHODIST HOSPITAL - NORTH",
+          "Total": 51
+        },
+        {
+          "origin": "METHODIST HOSPITAL - UNIVERSITY",
+          "Total": 43
+        },
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "Total": 35
+        },
+        {
+          "origin": "PATIENT RESIDENCE",
+          "Total": 25
+        },
+        {
+          "origin": "METHODIST HOSPITAL - OLIVE BRANCH",
+          "Total": 22
+        }
+      ]
+    },
+    "turned_heatmap": "turned_heatmap_Memphis_10-13-2024_10-19-2024.png",
+    "cancelled_heatmap": "cancelled_heatmap_Memphis_10-13-2024_10-19-2024.png",
+    "ran_heatmap": "ran_heatmap_Memphis_10-13-2024_10-19-2024.png",
+    "response_time_distribution": "response_time_distribution_Memphis_10-13-2024_10-19-2024.png",
+    "memphis_specialized_report": {
+      "methodist_table": [
+        {
+          "origin": "METHODIST HOSPITAL - GERMANTOWN",
+          "ALS": 2,
+          "BLS": 32,
+          "CCU": 1,
+          "Total": 35,
+          "PrevTotal": 41,
+          "Delta": "\\textcolor{red}{\\textbf{-6}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - LE BONHEUR CHILDREN'S",
+          "ALS": 0,
+          "BLS": 4,
+          "CCU": 0,
+          "Total": 4,
+          "PrevTotal": 7,
+          "Delta": "\\textcolor{red}{\\textbf{-3}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - NORTH",
+          "ALS": 10,
+          "BLS": 38,
+          "CCU": 0,
+          "Total": 51,
+          "PrevTotal": 29,
+          "Delta": "\\textcolor{green}{\\textbf{+22}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - OLIVE BRANCH",
+          "ALS": 5,
+          "BLS": 17,
+          "CCU": 0,
+          "Total": 22,
+          "PrevTotal": 29,
+          "Delta": "\\textcolor{red}{\\textbf{-7}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - SOUTH",
+          "ALS": 3,
+          "BLS": 19,
+          "CCU": 0,
+          "Total": 22,
+          "PrevTotal": 23,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "METHODIST HOSPITAL - UNIVERSITY",
+          "ALS": 2,
+          "BLS": 39,
+          "CCU": 0,
+          "Total": 43,
+          "PrevTotal": 37,
+          "Delta": "\\textcolor{green}{\\textbf{+6}}"
+        },
+        {
+          "origin": "\\hline",
+          "ALS": "",
+          "BLS": "",
+          "CCU": "",
+          "Total": "",
+          "PrevTotal": "",
+          "Delta": ""
+        },
+        {
+          "origin": "TOTAL",
+          "ALS": 22,
+          "BLS": 149,
+          "CCU": 1,
+          "Total": 177,
+          "PrevTotal": 166,
+          "Delta": "\\textcolor{green}{\\textbf{+11}}"
+        }
+      ],
+      "baptist_table": [
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - COLLIERVILLE",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - MEMPHIS",
+          "ALS": 0,
+          "BLS": 7,
+          "CCU": 1,
+          "Total": 9,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{green}{\\textbf{+7}}"
+        },
+        {
+          "origin": "BAPTIST MEMORIAL HOSPITAL - TIPTON",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "\\hline",
+          "ALS": "",
+          "BLS": "",
+          "CCU": "",
+          "Total": "",
+          "PrevTotal": "",
+          "Delta": ""
+        },
+        {
+          "origin": "TOTAL",
+          "ALS": 0,
+          "BLS": 11,
+          "CCU": 1,
+          "Total": 13,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+10}}"
+        }
+      ],
+      "st_francis_table": [
+        {
+          "origin": "ST FRANCIS HOSPITAL - BARTLETT",
+          "ALS": 1,
+          "BLS": 18,
+          "CCU": 0,
+          "Total": 20,
+          "PrevTotal": 16,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "ST FRANCIS HOSPITAL - PARK",
+          "ALS": 0,
+          "BLS": 6,
+          "CCU": 0,
+          "Total": 6,
+          "PrevTotal": 11,
+          "Delta": "\\textcolor{red}{\\textbf{-5}}"
+        },
+        {
+          "origin": "\\hline",
+          "ALS": "",
+          "BLS": "",
+          "CCU": "",
+          "Total": "",
+          "PrevTotal": "",
+          "Delta": ""
+        },
+        {
+          "origin": "TOTAL",
+          "ALS": 1,
+          "BLS": 24,
+          "CCU": 0,
+          "Total": 26,
+          "PrevTotal": 27,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        }
+      ]
+    }
+  },
+  "Nashville": {
+    "division": "Nashville",
+    "start_date": "10/13/2024",
+    "end_date": "10/19/2024",
+    "total_records": 195,
+    "summary_table": {
+      "ALS Ran": {
+        "Sunday": 3,
+        "Monday": 4,
+        "Tuesday": 4,
+        "Wednesday": 3,
+        "Thursday": 2,
+        "Friday": 4,
+        "Saturday": 0,
+        "Total": 20
+      },
+      "BLS Ran": {
+        "Sunday": 8,
+        "Monday": 26,
+        "Tuesday": 20,
+        "Wednesday": 17,
+        "Thursday": 15,
+        "Friday": 28,
+        "Saturday": 16,
+        "Total": 130
+      },
+      "CCU Ran": {
+        "Sunday": 0,
+        "Monday": 0,
+        "Tuesday": 0,
+        "Wednesday": 0,
+        "Thursday": 1,
+        "Friday": 0,
+        "Saturday": 0,
+        "Total": 1
+      },
+      "Total Ran": {
+        "Sunday": 11,
+        "Monday": 30,
+        "Tuesday": 24,
+        "Wednesday": 20,
+        "Thursday": 18,
+        "Friday": 32,
+        "Saturday": 16,
+        "Total": 151
+      },
+      "Turned": {
+        "Sunday": 4,
+        "Monday": 4,
+        "Tuesday": 2,
+        "Wednesday": 0,
+        "Thursday": 4,
+        "Friday": 7,
+        "Saturday": 1,
+        "Total": 22
+      },
+      "Cancelled": {
+        "Sunday": 2,
+        "Monday": 3,
+        "Tuesday": 2,
+        "Wednesday": 4,
+        "Thursday": 3,
+        "Friday": 0,
+        "Saturday": 4,
+        "Total": 18
+      },
+      "Total Missed": {
+        "Sunday": 6,
+        "Monday": 7,
+        "Tuesday": 4,
+        "Wednesday": 4,
+        "Thursday": 7,
+        "Friday": 7,
+        "Saturday": 5,
+        "Total": 40
+      },
+      "Total Demand": {
+        "Sunday": 19,
+        "Monday": 37,
+        "Tuesday": 28,
+        "Wednesday": 24,
+        "Thursday": 27,
+        "Friday": 39,
+        "Saturday": 21,
+        "Total": 195
+      }
+    },
+    "origin_report": {
+      "full_report": [
+        {
+          "origin": "BETHANY CENTER FOR REHABILITATION AND HEALING",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 4,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "CREEKSIDE HEALTH AND REHAB",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "DCI - MED CENTER",
+          "ALS": 0,
+          "BLS": 6,
+          "CCU": 0,
+          "Total": 6,
+          "PrevTotal": 6,
+          "Delta": "0"
+        },
+        {
+          "origin": "DCI - MEHARRY",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "DCI - SOUTHERN HILLS",
+          "ALS": 0,
+          "BLS": 8,
+          "CCU": 0,
+          "Total": 8,
+          "PrevTotal": 8,
+          "Delta": "0"
+        },
+        {
+          "origin": "DR OFFICE",
+          "ALS": 1,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "FMC EAST NASHVILLE",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "FMC SMYRNA",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "FMC WEST NASHVILLE",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "GOOD SAMARITAN HEALTH AND REHAB",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 2,
+          "Delta": "0"
+        },
+        {
+          "origin": "GREEN HILLS CENTER FOR REHAB",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 4,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "HARTSVILLE HEALTH & REHAB",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "JOHN TUNE AIRPORT",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "NASHVILLE CENTER FOR REHAB",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "NASHVILLE UROLOGY PC",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "PATIENT RESIDENCE",
+          "ALS": 1,
+          "BLS": 17,
+          "CCU": 0,
+          "Total": 19,
+          "PrevTotal": 14,
+          "Delta": "\\textcolor{green}{\\textbf{+5}}"
+        },
+        {
+          "origin": "SIGNATURE FLIGHT SUPPORT HANGAR",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "ST THOMAS HOSPITAL - MIDTOWN",
+          "ALS": 0,
+          "BLS": 5,
+          "CCU": 0,
+          "Total": 6,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+3}}"
+        },
+        {
+          "origin": "ST THOMAS HOSPITAL - RUTHERFORD",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "ST THOMAS HOSPITAL - WEST",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 8,
+          "Delta": "\\textcolor{red}{\\textbf{-5}}"
+        },
+        {
+          "origin": "SUMNER REGIONAL MEDICAL CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "THE BRIDGE AT HICKORY WOODS",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - ASHLAND CITY ER",
+          "ALS": 1,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - CENTENNIAL",
+          "ALS": 0,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - HORIZON MEDICAL",
+          "ALS": 1,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 3,
+          "Delta": "0"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - MT JULIET ER",
+          "ALS": 8,
+          "BLS": 7,
+          "CCU": 0,
+          "Total": 15,
+          "PrevTotal": 12,
+          "Delta": "\\textcolor{green}{\\textbf{+3}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - NATCHEZ ER",
+          "ALS": 1,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - NORTHCREST",
+          "ALS": 1,
+          "BLS": 2,
+          "CCU": 1,
+          "Total": 4,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SKYLINE",
+          "ALS": 0,
+          "BLS": 6,
+          "CCU": 0,
+          "Total": 6,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+3}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SOUTHERN HILLS",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 4,
+          "Delta": "\\textcolor{red}{\\textbf{-1}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - STONECREST",
+          "ALS": 2,
+          "BLS": 5,
+          "CCU": 0,
+          "Total": 7,
+          "PrevTotal": 3,
+          "Delta": "\\textcolor{green}{\\textbf{+4}}"
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SUMMIT",
+          "ALS": 2,
+          "BLS": 13,
+          "CCU": 0,
+          "Total": 16,
+          "PrevTotal": 19,
+          "Delta": "\\textcolor{red}{\\textbf{-3}}"
+        },
+        {
+          "origin": "VANDERBILT DIALYSIS CLINIC",
+          "ALS": 0,
+          "BLS": 3,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+2}}"
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - CHILDRENS",
+          "ALS": 1,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 2,
+          "PrevTotal": 1,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - MAIN",
+          "ALS": 0,
+          "BLS": 10,
+          "CCU": 0,
+          "Total": 10,
+          "PrevTotal": 10,
+          "Delta": "0"
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - UNIVERSITY",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 0,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - WILSON COUNTY",
+          "ALS": 1,
+          "BLS": 2,
+          "CCU": 0,
+          "Total": 3,
+          "PrevTotal": 2,
+          "Delta": "\\textcolor{green}{\\textbf{+1}}"
+        },
+        {
+          "origin": "WHITES CREEK WELLNESS AND REHAB CENTER",
+          "ALS": 0,
+          "BLS": 1,
+          "CCU": 0,
+          "Total": 1,
+          "PrevTotal": 1,
+          "Delta": "0"
+        },
+        {
+          "origin": "\\hline",
+          "ALS": 0,
+          "BLS": 0,
+          "CCU": 0,
+          "Total": 0,
+          "PrevTotal": 0,
+          "Delta": 0
+        },
+        {
+          "origin": "TOTAL",
+          "ALS": 20,
+          "BLS": 130,
+          "CCU": 1,
+          "Total": 155,
+          "PrevTotal": 130,
+          "Delta": "\\textcolor{green}{\\textbf{+25}}"
+        }
+      ],
+      "top_5_als": [
+        {
+          "origin": "TRISTAR HOSPITAL - MT JULIET ER",
+          "ALS": 8
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - STONECREST",
+          "ALS": 2
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SUMMIT",
+          "ALS": 2
+        },
+        {
+          "origin": "DR OFFICE",
+          "ALS": 1
+        },
+        {
+          "origin": "PATIENT RESIDENCE",
+          "ALS": 1
+        }
+      ],
+      "top_5_bls": [
+        {
+          "origin": "PATIENT RESIDENCE",
+          "BLS": 17
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SUMMIT",
+          "BLS": 13
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - MAIN",
+          "BLS": 10
+        },
+        {
+          "origin": "DCI - SOUTHERN HILLS",
+          "BLS": 8
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - MT JULIET ER",
+          "BLS": 7
+        }
+      ],
+      "top_5_ccu": [
+        {
+          "origin": "TRISTAR HOSPITAL - NORTHCREST",
+          "CCU": 1
+        },
+        {
+          "origin": "BETHANY CENTER FOR REHABILITATION AND HEALING",
+          "CCU": 0
+        },
+        {
+          "origin": "CREEKSIDE HEALTH AND REHAB",
+          "CCU": 0
+        },
+        {
+          "origin": "DCI - MED CENTER",
+          "CCU": 0
+        },
+        {
+          "origin": "DCI - MEHARRY",
+          "CCU": 0
+        }
+      ],
+      "top_5_total": [
+        {
+          "origin": "PATIENT RESIDENCE",
+          "Total": 19
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - SUMMIT",
+          "Total": 16
+        },
+        {
+          "origin": "TRISTAR HOSPITAL - MT JULIET ER",
+          "Total": 15
+        },
+        {
+          "origin": "VANDERBILT HOSPITAL - MAIN",
+          "Total": 10
+        },
+        {
+          "origin": "DCI - SOUTHERN HILLS",
+          "Total": 8
+        }
+      ]
+    },
+    "turned_heatmap": "turned_heatmap_Nashville_10-13-2024_10-19-2024.png",
+    "cancelled_heatmap": "cancelled_heatmap_Nashville_10-13-2024_10-19-2024.png",
+    "ran_heatmap": "ran_heatmap_Nashville_10-13-2024_10-19-2024.png",
+    "response_time_distribution": "response_time_distribution_Nashville_10-13-2024_10-19-2024.png"
+  }
+}

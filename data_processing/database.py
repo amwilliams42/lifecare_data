@@ -14,6 +14,14 @@ class DatabaseManager:
         except sqlite3.Error as e:
             raise Exception(f"Database connection error: {str(e)}")
 
+    def _convert_date_format(self, date_str: str) -> str:
+        """Convert from MM/DD/YYYY to MM/DD/YY format for database queries."""
+        try:
+            dt = datetime.strptime(date_str, Config.DATE_FORMAT)
+            return dt.strftime(Config.DB_DATE_FORMAT)
+        except ValueError as e:
+            raise Exception(f"Date conversion error: {str(e)}")
+
     def fetch_data_for_period(self, start_date: str, end_date: str) -> pd.DataFrame:
         """
         Fetch data for a specific date range.
@@ -25,6 +33,10 @@ class DatabaseManager:
         Returns:
             DataFrame containing the requested data
         """
+        # Convert input dates to database format (MM/DD/YY)
+        db_start_date = self._convert_date_format(start_date)
+        db_end_date = self._convert_date_format(end_date)
+        
         query = """
         SELECT 
             date_of_service,
@@ -45,21 +57,16 @@ class DatabaseManager:
                 df = pd.read_sql_query(
                     query,
                     conn,
-                    params=(start_date, end_date)
+                    params=(db_start_date, db_end_date)
                 )
                 
-                # Convert date_of_service to datetime, handling any invalid dates
+                # Convert two-digit years to four-digit years
                 df['date_of_service'] = pd.to_datetime(
-                    df['date_of_service'], 
-                    format=Config.DB_DATE_FORMAT,
-                    errors='coerce'  # Convert invalid dates to NaT
+                    df['date_of_service'],
+                    format=Config.DB_DATE_FORMAT
                 )
                 
-                # Remove any rows with invalid dates
-                df = df.dropna(subset=['date_of_service'])
+                return df
                 
-            print(df.head())    
-            return df
-                    
         except Exception as e:
             raise Exception(f"Data fetch error: {str(e)}")

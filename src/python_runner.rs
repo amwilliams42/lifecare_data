@@ -4,17 +4,31 @@ use chrono::NaiveDate;
 use crate::errors::AppError;
 
 pub fn run_python_script(start_date: &NaiveDate, end_date: &NaiveDate) -> Result<String, AppError> {
-    let venv_activate = Path::new("./scripts/venv/bin/activate");
-    let script_path = Path::new("./scripts/main.py");
+    #[cfg(target_os = "linux")]
+    fn run() {
+        let venv_activate = Path::new("./data_processing/venv/bin/activate");
+
+    }
+
+    let script_path = Path::new("./data_processing/main.py");
 
     let start_date_str = start_date.format("%m/%d/%Y").to_string();
     let end_date_str = end_date.format("%m/%d/%Y").to_string();
 
     println!("Executing Python script with dates: {} to {}", start_date_str, end_date_str);
 
+    #[cfg(target_os = "linux")]
     let command = format!(
         "source {} && python {} {} {}",
         venv_activate.display(),
+        script_path.display(),
+        start_date_str,
+        end_date_str
+    );
+
+    #[cfg(target_os = "windows")]
+    let command = format!(
+        "python3 {} {} {}",
         script_path.display(),
         start_date_str,
         end_date_str
